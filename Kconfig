@@ -10,6 +10,9 @@ menu "u8g2 Configuration"
 		config U8G2_DISPLAY_DRIVER_ALL
 			bool "all drivers"
 
+		config U8G2_DISPLAY_DRIVER_NONE
+			bool "no drivers"
+
 		config U8G2_DISPLAY_DRIVER_A2PRINTER
 			bool "a2printer"
 

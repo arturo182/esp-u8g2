@@ -182,6 +182,8 @@ elseif(CONFIG_U8G2_DISPLAY_DRIVER_UC1698)
 	u8g2_append_driver_family(uc1698)
 elseif(CONFIG_U8G2_DISPLAY_DRIVER_UC1701)
 	u8g2_append_driver_family(uc1701)
+elseif(CONFIG_U8G2_DISPLAY_DRIVER_NONE)
+	# No drivers
 else()
 	file(GLOB U8G2_ALL_FAMILY_DRIVER_SOURCES
 		"src/driver/u8x8_d_*.c"
